@@ -8,7 +8,7 @@
 body {
   font: 16px/28px "Montserrat", sans-serif;
   color: #fff;
-  background-color: rgba(35, 38, 38, 1);
+  /* background-color: rgba(35, 38, 38, 1); */
 }
 a {
   color: inherit;
@@ -47,6 +47,18 @@ button {
 }
 
 /* HEADER */
+.header_bg {
+  background-image: url(/images/header-bagraund.jpg);
+  width: 174.75vh;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: darkblue;
+  position: absolute;
+  z-index: -1vh;
+}
+.bg_all {
+  opacity: 1;
+}
 
 #header_section {
   padding: 60px 0 220px;
@@ -118,19 +130,17 @@ button {
 
 .banner_circle {
   position: absolute;
-  /* background-color: aquamarine; */
+  max-width: 70%;
+  height: 120%;
+  top: 0;
+  right: 0;
   overflow: hidden;
-  right: -10vh;
-  top: -5vh;
-  /* background-size: 100% 60%; */
-
-  border-radius: 50%;
 }
-.circle {
+/* .circle {
   background: url(/images/circle2.png);
   background-size: 90% auto;
   background-repeat: no-repeat;
 
   height: 80vh;
   width: 80vh;
-}
+} */
