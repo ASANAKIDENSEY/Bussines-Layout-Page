@@ -5,40 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Document</title>
+    <title>Bussines landing</title>
   </head>
   <body>
-    <div class="header">
+    <header id="header_section">
       <div class="container">
-        <div class="header_line">
-          <div class="header_logo">
-            <img class="logo" src="/images/logo.png" alt="logo" />
+        <div class="header">
+          <div class="header_logo__img">
+            <img src="/images/logo.png" alt="" />
           </div>
-          <div class="nav">
-            <a class="nav_item" href="@">About us</a>
-            <a class="nav_item" href="@">Consulting Services</a>
-            <a class="nav_item" href="@">Industries Served</a>
-            <a class="nav_item" href="@">Our Process</a>
-            <a class="nav_item" href="@">Results</a>
-            <a class="nav_item" href="@">Careers</a>
-            <a class="nav_item" href="@">Contact us</a>
-          </div>
+          <nav class="nav_main">
+            <ul class="nav_main__list">
+              <li class="nav_main__item">
+                <a class="nav_main__link" href="#">About us</a>
+              </li>
+              <li class="nav_main__item">
+                <a class="nav_main__link" href="#">Consulting Services</a>
+              </li>
+              <li class="nav_main__item">
+                <a class="nav_main__link" href="#">Industries Served</a>
+              </li>
+              <li class="nav_main__item">
+                <a class="nav_main__link" href="#">Our Process</a>
+              </li>
+              <li class="nav_main__item">
+                <a class="nav_main__link" href="#">Results</a>
+              </li>
+              <li class="nav_main__item">
+                <a class="nav_main__link" href="#">Careers</a>
+              </li>
+              <li class="nav_main__item">
+                <a class="nav_main__link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-      <div class="header_inner">
-        <div class="header_item">
-          <h2>Perfect Place For Your Business Promotion</h2>
-          <p>
-            Nam sed libero nec sem scelerisque mollis imperdiet a sem.
-            Vestibulum ante ipsum primis in faucibus orci luctus
-          </p>
-          <button class="btn">Get Started</button>
+    </header>
+    <main>
+      <section id="banner_section">
+        <div class="container">
+          <div class="banner">
+            <h2 class="banner_header">
+              Perfect Place For Your Business Promotion
+            </h2>
+            <p class="banner_text">
+              Nam sed libero nec sem scelerisque mollis imperdiet a sem.
+              Vestibulum ante ipsum primis in faucibus orci luctus
+            </p>
+            <div class="banner_links_wrap">
+              <a class="btn-primary banner__link" href="">Get Started</a>
+            </div>
+            <div class="banner_image">
+              <img class="banner_img__1" src="/images/image1.png" alt="1" />
+              <img class="banner_img__2" src="/images/image2.png" alt="2" />
+              <img class="banner_img__3" src="/images/image3.png" alt="3" />
+              <img class="banner_img__4" src="/images/image4.png" alt="4" />
+            </div>
+          </div>
         </div>
-        <div class="header_circle">
-          <img src="/images/header-circle.jpg" alt="" />
+
+        <div class="banner_circle">
+          <div class="circle"></div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
