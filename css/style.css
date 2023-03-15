@@ -224,7 +224,7 @@ button {
   flex-wrap: wrap;
   z-index: 1;
 }
-.box_item:before {
+.box_item::after {
   background-color: #9a762f;
   z-index: 10;
 }
@@ -233,3 +233,91 @@ button {
   height: 50px;
   padding-bottom: 50px;
 }
+
+/* Section redesigning_box*/
+
+#redesigning_box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+
+  margin-top: -100px;
+}
+.redesigning_item_1 {
+  background: url(../images/enginer.png);
+  border-radius: 15px;
+  width: 900px;
+  height: 600px;
+
+  top: 20%;
+  left: 10%;
+  right: 0;
+  bottom: 0;
+
+  position: relative;
+  z-index: 0;
+}
+.redesigning_item_2 {
+  width: 900px;
+  height: 600px;
+
+  border: 30px solid;
+  border-image-source: linear-gradient(90deg, #9a762f 0%, #f2c977 100%);
+  border-image-slice: 1;
+
+  /* top: -50%; */
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+
+  position: relative;
+  z-index: -1;
+}
+.redesigning_item_3 {
+  background: rgba(35, 38, 38, 1);
+  border-radius: 15px;
+  width: 900px;
+  height: 600px;
+
+  top: -70%;
+  left: 43%;
+  right: 0;
+  /* bottom: -200%; */
+
+  position: relative;
+  z-index: 0;
+}
+
+.redesigning_list li {
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 30px;
+  /* padding: 10px 20px; */
+  /* padding-left: 10%; */
+  color: rgba(225, 225, 225, 1);
+  z-index: 0;
+  position: relative;
+}
+.redesigning_list li::before {
+  content: url(../images/Ellipse\ 3.png);
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+.redesining_ul_list {
+  padding: 70px;
+}
+.redesigning_title {
+  font-size: 38px;
+  line-height: 50px;
+}
+.redesigning_text {
+  font-size: 24px;
+  line-height: 20px;
+
+  padding: 40px 0;
+}
+
+/* Carusel Section */
