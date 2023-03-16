@@ -32,7 +32,7 @@ button {
   background-color: transparent;
   font: inherit;
   cursor: pointer;
-  transition: 0.3s linear;
+  transition: 0.9s linear;
 }
 .container {
   max-width: 1320px;
@@ -318,9 +318,39 @@ button {
 
 .carusel_box {
   color: rgba(35, 38, 38, 1);
+  display: inline-block;
+  position: relative;
 }
-.carusel_1 {
-  height: 420px;
+.btn_carusel {
+  font-size: 50px;
+  color: inherit;
+  padding-bottom: 50px;
+  margin: 10px;
+  border-radius: 60%;
+}
+.btn_carusel:hover {
+  color: #fafafa;
+  background-color: rgba(154, 117, 48, 1);
+}
+.carusel_text {
+  position: relative;
+  top: -20%;
+  right: 0;
+  left: 5%;
+  bottom: 0;
+  color: #fafafa;
+}
+.carusel {
+  display: flex;
+
+  gap: 30px;
+  overflow: hidden;
+}
+.carusel_img {
+  border-radius: 20px;
+}
+.carusel_item {
   width: 420px;
-  background-color: cadetblue;
+  height: 420px;
+  overflow: hidden;
 }
