@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/css/style.css" />
     <title>Bussines landing</title>
     <body>
@@ -122,33 +123,48 @@
         </div>
       </section>
 
-      <section class="carusel_box">
-        <div class="carusel_title">
-          <h3>Supply Chain Diversification & Acceleration Experts</h3>
-          <button class="btn__carusel-prev">←</button>
-          <button class="btn__carusel-next">→</button>
-        </div>
-          <div class="carusel">
-            <div class="carusel_line">
-              <img class="carusel_img" src="/images/slide_1.png" alt="">
-              <img class="carusel_img" src="/images/slide_2.png" alt="">
-              <img class="carusel_img" src="/images/slide_3.png" alt="">
-              <img class="carusel_img" src="/images/slide_2.png" alt="">
-              <img class="carusel_img" src="/images/slide_3.png" alt="">
-              <img class="carusel_img" src="/images/slide_1.png" alt="">  
-              <img class="carusel_img" src="/images/slide_2.png" alt=""> 
+      <section class="slider">
+        <div class="slider__container">
+          <div class="slider__title title">Supply Chain Diversification & Acceleration Experts</div>
+          <div class="slider__btn"></div>
+          <div class="slider__box">
+            <div class="swiper slider-popular-box">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide popular-slide">
+                  <div class="popular-slide__images">
+                    <img src="/images/slide_1.png" alt="slide1">
+                    <p>Text!</p>
+                  </div>
+                </div>
+                <div class="swiper-slide popular-slide">
+                  <div class="popular-slide__images">
+                    <img src="/images/slide_2.png" alt="slide1">
+                    <p>Text!</p>
+                  </div>
+                </div>
+                <div class="swiper-slide popular-slide">
+                  <div class="popular-slide__images">
+                    <img src="/images/slide_3.png" alt="slide1">
+                    <p>Text!</p>
+                  </div>
+                </div>
+                <div class="swiper-slide popular-slide">
+                  <div class="popular-slide__images">
+                    <img src="/images/slide_1.png" alt="slide1">
+                    <p>Text!</p>
+                  </div>
+                </div>
+                  
+              </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
             </div>
           </div>
-          <div class="carusel_wrapper">
-            <div class="carusel__dot active-dot"></div>
-            <div class="carusel__dot"></div>
-            <div class="carusel__dot"></div>
-            <div class="carusel__dot"></div>
-            <div class="carusel__dot"></div>
-            <div class="carusel__dot"></div>
-            <div class="carusel__dot"></div>
-          </div>
+        </div> 
       </section>
-    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>    
   </body>
 </html>
