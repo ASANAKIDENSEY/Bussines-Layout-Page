@@ -2,13 +2,15 @@
 const swiper = new Swiper(".swiper-container", {
   // Optional parameters
   // direction: "vertical",
-  // loop: true,
+  loop: true,
   slidesPerView: 4.5,
-  spaceBetween: 10,
+  spaceBetween: 25,
+  slideToClikedSlide: true,
   // If we need pagination
   pagination: {
     el: ".swiper-pagination",
     type: "bullets",
+    clickable: true,
   },
 
   // Navigation arrows
