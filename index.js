@@ -7,7 +7,7 @@ const swiper = new Swiper(".swiper-container", {
   spaceBetween: 10,
   slideToClikedSlide: true,
   autoplay: {
-    delay: 2000,
+    delay: 5000,
   },
   // If we need pagination
   // pagination: {
