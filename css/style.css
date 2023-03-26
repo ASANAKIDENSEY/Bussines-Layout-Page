@@ -654,3 +654,134 @@ button {
   padding: 80px 0 0 150px;
   margin: 0;
 }
+
+/* Section News */
+#news_box {
+  position: relative;
+}
+.news_title {
+  color: #383838;
+}
+.news_block {
+  padding-bottom: 130px;
+  transition: 0.9s linear all;
+}
+.news_data {
+  color: #232626;
+  width: 92px;
+  height: 92px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+
+  justify-content: right;
+  text-align: center;
+  margin-left: 70%;
+  margin-top: 5%;
+  padding: 20px;
+
+  border-radius: 100%;
+  background-color: #fafafa;
+  position: static;
+
+  transition: all 0.9s;
+}
+.news_data_span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+
+  text-align: center;
+  align-items: center;
+  display: block;
+
+  color: #5d5e5f;
+  text-transform: uppercase;
+}
+.news_card {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+
+  gap: 30px;
+  margin: 0 0;
+}
+.news_card_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+.news_card_text {
+  padding-top: 10px;
+
+  display: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+
+  transition: all 0.9s;
+  color: #e1e1e1;
+}
+.news_read-more {
+  padding-top: 10px;
+}
+.news_card_item {
+  padding-top: 50%;
+  padding-left: 5%;
+  max-width: 570px;
+
+  transition: all 0.9s;
+}
+.news_card-1 {
+  width: 310px;
+  height: 455px;
+  background-image: url(../images/news_back_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  overflow: hidden;
+
+  margin: 0;
+
+  transition: all 0.9s;
+}
+.news_card-1:hover {
+  width: 645px;
+  transition: all 0.9s;
+  transform: scale(50px);
+}
+.news_card-1:hover .news_card_text {
+  display: block;
+  transition: all 0.9s;
+}
+.news_card-1:hover .news_data {
+  margin-left: 80%;
+  transition: all 0.9s;
+}
+.news_card-1:hover .news_card_item {
+  padding-top: 25%;
+  padding-left: 10%;
+  transition: all 0.9s;
+}
+.news_card-1:hover .news_read-more {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #f3c977;
+}
