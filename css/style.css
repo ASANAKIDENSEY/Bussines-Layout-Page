@@ -659,8 +659,21 @@ button {
 #news_box {
   position: relative;
 }
+.news_header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
 .news_title {
-  color: #383838;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 50px;
+
+  color: #232626;
 }
 .news_block {
   padding-bottom: 130px;
@@ -725,6 +738,7 @@ button {
   padding-top: 10px;
 
   display: none;
+
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -740,12 +754,12 @@ button {
 .news_card_item {
   padding-top: 50%;
   padding-left: 5%;
-  max-width: 570px;
+  max-width: 550px;
 
   transition: all 0.9s;
 }
 .news_card-1 {
-  width: 310px;
+  width: 33.33%;
   height: 455px;
   background-image: url(../images/news_back_1.png);
   background-repeat: no-repeat;
@@ -758,13 +772,42 @@ button {
 
   transition: all 0.9s;
 }
-.news_card-1:hover {
-  width: 645px;
+.news_card-2 {
+  width: 33.33%;
+  height: 455px;
+  background-image: url(../images/news_back_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  overflow: hidden;
+
+  margin: 0;
+
   transition: all 0.9s;
-  transform: scale(50px);
+}
+.news_card-3 {
+  width: 33.33%;
+  height: 455px;
+  background-image: url(../images/news_back_3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  overflow: hidden;
+
+  margin: 0;
+
+  transition: all 0.9s;
+}
+.news_card-1:hover {
+  width: 70%;
+  transition: all 0.9s;
+  transform: scale(105%);
 }
 .news_card-1:hover .news_card_text {
   display: block;
+
   transition: all 0.9s;
 }
 .news_card-1:hover .news_data {
@@ -777,6 +820,64 @@ button {
   transition: all 0.9s;
 }
 .news_card-1:hover .news_read-more {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #f3c977;
+}
+
+.news_card-2:hover {
+  width: 70%;
+  transition: all 0.9s;
+  transform: scale(105%);
+}
+.news_card-2:hover .news_card_text {
+  display: block;
+
+  transition: all 0.9s;
+}
+.news_card-2:hover .news_data {
+  margin-left: 80%;
+  transition: all 0.9s;
+}
+.news_card-2:hover .news_card_item {
+  padding-top: 25%;
+  padding-left: 10%;
+  transition: all 0.9s;
+}
+.news_card-2:hover .news_read-more {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #f3c977;
+}
+
+.news_card-3:hover {
+  width: 70%;
+  transition: all 0.9s;
+  transform: scale(105%);
+}
+.news_card-3:hover .news_card_text {
+  display: block;
+
+  transition: all 0.9s;
+}
+.news_card-3:hover .news_data {
+  margin-left: 80%;
+  transition: all 0.9s;
+}
+.news_card-3:hover .news_card_item {
+  padding-top: 25%;
+  padding-left: 10%;
+  transition: all 0.9s;
+}
+.news_card-3:hover .news_read-more {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
