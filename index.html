@@ -253,19 +253,24 @@
             <form action="#" class="form" name="newform">
               <p class="form_title_text">Focused expertise, extensive category experience, proven and profitable results…How may we help you?</p>
             <div class="form_inputs">
-              <input type="text" placeholder="First Name">
-              <input type="text" placeholder="Last Name">
-              <input type="text" placeholder="Email Address">
-              <input type="text" placeholder="Phone Number">
-              <input type="text" placeholder="Company Name">
-              <input type="text" placeholder="How Can We Help?">
+              <input class="input" type="text" placeholder="First Name">
+              <input class="input" type="text" placeholder="Last Name">
+              <input class="input" type="text" placeholder="Email Address">
+              <input class="input" type="text" placeholder="Phone Number">
+              <input class="input" type="text" placeholder="Company Name">
+              <input class="input" type="text" placeholder="How Can We Help?">
             </div>
             <div class="form_checkbox">
-              <p class="text_check">Preferred Method Of Contact :</p>
-              <input type="radio" name="" id="radio1" class="radio_input">
-              <p class="text_check">Phone</p>
-              <input type="radio" name="" id="radio2" class="radio_input"> 
-              <p class="text_check">Email</p>
+              <p class="text_check_p">Preferred Method Of Contact :</p>
+              <div class="radio">
+                <input type="radio" name="chek" id="radio1" class="radio_input">
+                <label for="radio1" class="text_check">Phone</label>
+                
+              </div>
+              <div class="radio">
+                <input type="radio" name="chek" id="radio2" class="radio_input">
+                <label for="radio2" class="text_check">Email</label> 
+              </div>
             </div>
             <textarea name="dfghdf" id="" cols="30" rows="10" placeholder="Comments..." ></textarea>
             <div class="form_button">
@@ -305,7 +310,9 @@
               </li>
             </ul>
           </nav>
-          <div class="foot_line">
+          
+        </div>
+        <div class="foot_line">
             <p>© 2022 ABC Consulting. All Rights Reserved.</p>
             <div class="footer_icons">
               <div class="footer_icon"></div>
@@ -314,7 +321,6 @@
               <div class="footer_icon"></div>
             </div>
           </div>
-        </div>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="index.js"></script>    
