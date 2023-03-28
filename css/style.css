@@ -1,5 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #232626;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    rgba(154, 118, 47, 1),
+    rgba(242, 201, 119, 1)
+  );
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, rgb(107, 78, 22), rgb(237, 170, 38));
+}
 * {
   margin: 0;
   padding: 0;
@@ -1087,8 +1104,6 @@ textarea {
 .foot_line {
   margin: 0;
   display: inline-block;
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
 }
 .footer_icon {
   width: 40px;
